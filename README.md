@@ -32,3 +32,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### `npm run lint:fix`
 
 fixes linting issues 
+
+## `npm run electron-dev`
+
+run electron app in dev mode
+
+## `npm run electron-pack`
+
+create app package

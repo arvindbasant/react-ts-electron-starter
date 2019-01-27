@@ -23,7 +23,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "electron-dev": "concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && cross-env HOT=1 NODE_ENV=development electron .\"",
-    "electron": "concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && electron .\"",
     "preelectron-pack": "yarn build",
     "electron-pack": "build build/electron.js",
     "lint:fix": "tslint -c tslint.json -p tsconfig.json --fix"
